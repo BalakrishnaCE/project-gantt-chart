@@ -1,19 +1,25 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
-      "noEmit": true,
-      "esModuleInterop": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "jsx": "react-jsx"
-    },
-    "include": ["src"]
-  }
-  
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "declaration": true, // Generate declaration files
+    "declarationDir": "./dist", // Declarations go to ./dist
+    "outDir": "./dist", // JS files go to ./dist
+    "emitDeclarationOnly": false, // Emit both .js and .d.ts
+    "preserveConstEnums": true
+  },
+  "include": ["src/**/*"], // Include all files in src
+  "exclude": ["node_modules", "dist", "build"]
+}

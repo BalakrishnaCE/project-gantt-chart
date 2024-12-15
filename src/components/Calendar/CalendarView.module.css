@@ -1,0 +1,43 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.header {
+  display: flex;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.headerCell {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.cell {
+  flex: 1;
+  text-align: center;
+  padding: 4px;
+  border-right: 1px solid #ddd;
+}
+
+.activeCell {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}

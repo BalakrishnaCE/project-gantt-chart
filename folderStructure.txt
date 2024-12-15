@@ -1,0 +1,38 @@
+project-gantt-chart/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── Sidebar.module.css
+│   │   │   ├── SidebarFilters.tsx
+│   │   │   └── Sidebar.types.ts
+│   │   ├── Timeline/
+│   │   │   ├── Timeline.tsx
+│   │   │   ├── Timeline.module.css
+│   │   │   └── Timeline.types.ts
+│   │   ├── Calendar/
+│   │   │   ├── CalendarView.tsx
+│   │   │   ├── CalendarView.module.css
+│   │   │   └── CalendarView.types.ts
+│   │   └── Modals/
+│   │       ├── TaskDetailsModal.tsx
+│   │       ├── TaskDetailsModal.module.css
+│   │       └── TaskDetailsModal.types.ts
+│   ├── hooks/
+│   │   ├── useGanttData.ts
+│   │   ├── useSidebarFilters.ts
+│   │   └── useTimeline.ts
+│   ├── utils/
+│   │   ├── dateUtils.ts
+│   │   └── dataUtils.ts
+│   ├── styles/
+│   │   └── index.css
+│   ├── index.ts
+│   └── App.tsx
+├── dist/ (generated after building the library)
+├── public/
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── webpack.config.js
+└── README.md

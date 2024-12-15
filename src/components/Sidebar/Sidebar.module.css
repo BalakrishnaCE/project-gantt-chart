@@ -1,0 +1,34 @@
+.sidebar {
+  padding: 16px;
+  background-color: #f9f9f9;
+  height: 100%;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.projectList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  margin-bottom: 16px;
+}
+
+.projectHeader {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.taskList {
+  list-style: none;
+  padding-left: 16px;
+  margin: 0;
+}
+
+.task {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: #666;
+}
